@@ -1,0 +1,278 @@
+2024-10-11 23:34:06.439 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-11 23:34:06.569 +08:00 [DBG] Hosting starting
+2024-10-11 23:34:06.859 +08:00 [INF] Now listening on: https://localhost:7154
+2024-10-11 23:34:06.861 +08:00 [INF] Now listening on: http://localhost:5244
+2024-10-11 23:34:06.862 +08:00 [DBG] Loaded hosting startup assembly TakeHomeAssignment
+2024-10-11 23:34:06.863 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-11 23:34:06.864 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-11 23:34:06.864 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-11 23:34:06.866 +08:00 [INF] Hosting environment: Development
+2024-10-11 23:34:06.866 +08:00 [INF] Content root path: C:\JunYuan\TakeHomeAssignment
+2024-10-11 23:34:06.867 +08:00 [DBG] Hosting started
+2024-10-11 23:34:07.068 +08:00 [DBG] Connection id "0HN7A18IFJ6I8" received FIN.
+2024-10-11 23:34:07.068 +08:00 [DBG] Connection id "0HN7A18IFJ6I7" received FIN.
+2024-10-11 23:34:07.075 +08:00 [DBG] Connection id "0HN7A18IFJ6I7" accepted.
+2024-10-11 23:34:07.075 +08:00 [DBG] Connection id "0HN7A18IFJ6I8" accepted.
+2024-10-11 23:34:07.077 +08:00 [DBG] Connection id "0HN7A18IFJ6I7" started.
+2024-10-11 23:34:07.077 +08:00 [DBG] Connection id "0HN7A18IFJ6I8" started.
+2024-10-11 23:34:07.103 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-11 23:34:07.103 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-11 23:34:07.161 +08:00 [DBG] Connection id "0HN7A18IFJ6I8" stopped.
+2024-10-11 23:34:07.161 +08:00 [DBG] Connection id "0HN7A18IFJ6I7" stopped.
+2024-10-11 23:34:07.167 +08:00 [DBG] Connection id "0HN7A18IFJ6I8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 23:34:07.167 +08:00 [DBG] Connection id "0HN7A18IFJ6I7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 23:34:08.730 +08:00 [DBG] Connection id "0HN7A18IFJ6I9" accepted.
+2024-10-11 23:34:08.733 +08:00 [DBG] Connection id "0HN7A18IFJ6I9" started.
+2024-10-11 23:34:08.784 +08:00 [DBG] Connection 0HN7A18IFJ6I9 established using the following protocol: "Tls13"
+2024-10-11 23:34:08.896 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7154/swagger/index.html - null null
+2024-10-11 23:34:09.024 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-11 23:34:09.049 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-11 23:34:09.051 +08:00 [DBG] Request did not match any endpoints
+2024-10-11 23:34:09.166 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-11 23:34:09.168 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-11 23:34:09.194 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-11 23:34:09.197 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-11 23:34:09.207 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7154/swagger/index.html - 200 null text/html;charset=utf-8 315.5333ms
+2024-10-11 23:34:09.251 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 23:34:09.259 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.6552ms
+2024-10-11 23:34:09.373 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7154/_vs/browserLink - null null
+2024-10-11 23:34:09.455 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7154/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.5893ms
+2024-10-11 23:34:09.668 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7154/swagger/v1/swagger.json - null null
+2024-10-11 23:34:09.671 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-11 23:34:09.672 +08:00 [DBG] Request did not match any endpoints
+2024-10-11 23:34:09.854 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7154/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 186.0977ms
+2024-10-11 23:34:11.723 +08:00 [DBG] Connection id "0HN7A18IFJ6I9" received FIN.
+2024-10-11 23:34:11.752 +08:00 [DBG] The connection queue processing loop for 0HN7A18IFJ6I9 completed.
+2024-10-11 23:34:11.755 +08:00 [DBG] Connection id "0HN7A18IFJ6I9" is closed. The last processed stream ID was 7.
+2024-10-11 23:34:11.805 +08:00 [DBG] Connection id "0HN7A18IFJ6I9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 23:34:11.813 +08:00 [DBG] Connection id "0HN7A18IFJ6I9" stopped.
+2024-10-11 23:34:18.459 +08:00 [DBG] Connection id "0HN7A18IFJ6IA" accepted.
+2024-10-11 23:34:18.461 +08:00 [DBG] Connection id "0HN7A18IFJ6IA" started.
+2024-10-11 23:34:18.467 +08:00 [DBG] Connection 0HN7A18IFJ6IA established using the following protocol: "Tls13"
+2024-10-11 23:34:18.469 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7154/api/People/1 - null null
+2024-10-11 23:34:18.475 +08:00 [DBG] 1 candidate(s) found for the request path '/api/People/1'
+2024-10-11 23:34:18.478 +08:00 [DBG] Endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)' with route pattern 'api/People/{id}' is valid for the request path '/api/People/1'
+2024-10-11 23:34:18.479 +08:00 [DBG] Request matched endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)'
+2024-10-11 23:34:18.483 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-11 23:34:18.485 +08:00 [INF] Executing endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)'
+2024-10-11 23:34:18.520 +08:00 [INF] Route matched with {action = "GetPerson", controller = "People"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPerson(Int32) on controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment).
+2024-10-11 23:34:18.525 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-11 23:34:18.526 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-11 23:34:18.528 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-11 23:34:18.530 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-11 23:34:18.532 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-11 23:34:18.536 +08:00 [DBG] Executing controller factory for controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment)
+2024-10-11 23:34:18.738 +08:00 [DBG] Executed controller factory for controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment)
+2024-10-11 23:34:18.761 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-11 23:34:18.764 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-11 23:34:18.767 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 23:34:18.769 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 23:34:18.770 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-11 23:34:18.800 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-11 23:34:18.804 +08:00 [INF] Returning person data for ID: 1
+2024-10-11 23:34:18.809 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-11 23:34:18.813 +08:00 [DBG] No information found on request to perform content negotiation.
+2024-10-11 23:34:18.814 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-11 23:34:18.815 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-11 23:34:18.817 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-11 23:34:18.818 +08:00 [INF] Executing OkObjectResult, writing value of type 'Person'.
+2024-10-11 23:34:18.831 +08:00 [INF] Executed action TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment) in 294.8924ms
+2024-10-11 23:34:18.832 +08:00 [INF] Executed endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)'
+2024-10-11 23:34:18.834 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7154/api/People/1 - 200 null application/json; charset=utf-8 364.5625ms
+2024-10-11 23:34:21.146 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7154/api/People/1 - null null
+2024-10-11 23:34:21.155 +08:00 [DBG] 1 candidate(s) found for the request path '/api/People/1'
+2024-10-11 23:34:21.156 +08:00 [DBG] Endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)' with route pattern 'api/People/{id}' is valid for the request path '/api/People/1'
+2024-10-11 23:34:21.158 +08:00 [DBG] Request matched endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)'
+2024-10-11 23:34:21.159 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-11 23:34:21.160 +08:00 [INF] Executing endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)'
+2024-10-11 23:34:21.161 +08:00 [INF] Route matched with {action = "GetPerson", controller = "People"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPerson(Int32) on controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment).
+2024-10-11 23:34:21.163 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-11 23:34:21.164 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-11 23:34:21.165 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-11 23:34:21.166 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-11 23:34:21.167 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-11 23:34:21.168 +08:00 [DBG] Executing controller factory for controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment)
+2024-10-11 23:34:21.169 +08:00 [DBG] Executed controller factory for controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment)
+2024-10-11 23:34:21.170 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-11 23:34:21.171 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-11 23:34:21.172 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 23:34:21.174 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 23:34:21.175 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-11 23:34:21.177 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-11 23:34:21.178 +08:00 [INF] Returning person data for ID: 1
+2024-10-11 23:34:21.179 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-11 23:34:21.181 +08:00 [DBG] No information found on request to perform content negotiation.
+2024-10-11 23:34:21.181 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-11 23:34:21.182 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-11 23:34:21.183 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-11 23:34:21.184 +08:00 [INF] Executing OkObjectResult, writing value of type 'Person'.
+2024-10-11 23:34:21.185 +08:00 [INF] Executed action TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment) in 17.393ms
+2024-10-11 23:34:21.187 +08:00 [INF] Executed endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)'
+2024-10-11 23:34:21.188 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7154/api/People/1 - 200 null application/json; charset=utf-8 41.4673ms
+2024-10-11 23:34:22.462 +08:00 [DBG] Connection id "0HN7A18IFJ6IA" received FIN.
+2024-10-11 23:34:22.466 +08:00 [DBG] Connection id "0HN7A18IFJ6IA" is closed. The last processed stream ID was 3.
+2024-10-11 23:34:22.466 +08:00 [DBG] The connection queue processing loop for 0HN7A18IFJ6IA completed.
+2024-10-11 23:34:22.470 +08:00 [DBG] Connection id "0HN7A18IFJ6IA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 23:34:22.493 +08:00 [DBG] Connection id "0HN7A18IFJ6IA" stopped.
+2024-10-11 23:39:43.316 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-11 23:39:43.423 +08:00 [DBG] Hosting starting
+2024-10-11 23:39:43.618 +08:00 [INF] Now listening on: https://localhost:7154
+2024-10-11 23:39:43.621 +08:00 [INF] Now listening on: http://localhost:5244
+2024-10-11 23:39:43.622 +08:00 [DBG] Loaded hosting startup assembly TakeHomeAssignment
+2024-10-11 23:39:43.623 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-11 23:39:43.624 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-11 23:39:43.625 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-11 23:39:43.626 +08:00 [INF] Hosting environment: Development
+2024-10-11 23:39:43.627 +08:00 [INF] Content root path: C:\JunYuan\TakeHomeAssignment
+2024-10-11 23:39:43.627 +08:00 [DBG] Hosting started
+2024-10-11 23:39:43.819 +08:00 [DBG] Connection id "0HN7A1BMR3BJP" received FIN.
+2024-10-11 23:39:43.825 +08:00 [DBG] Connection id "0HN7A1BMR3BJP" accepted.
+2024-10-11 23:39:43.826 +08:00 [DBG] Connection id "0HN7A1BMR3BJP" started.
+2024-10-11 23:39:43.843 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-11 23:39:43.876 +08:00 [DBG] Connection id "0HN7A1BMR3BJP" stopped.
+2024-10-11 23:39:43.882 +08:00 [DBG] Connection id "0HN7A1BMR3BJP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 23:39:45.712 +08:00 [DBG] Connection id "0HN7A1BMR3BJQ" accepted.
+2024-10-11 23:39:45.714 +08:00 [DBG] Connection id "0HN7A1BMR3BJQ" started.
+2024-10-11 23:39:45.762 +08:00 [DBG] Connection 0HN7A1BMR3BJQ established using the following protocol: "Tls13"
+2024-10-11 23:39:45.829 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7154/swagger/index.html - null null
+2024-10-11 23:39:45.943 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-11 23:39:45.965 +08:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-11 23:39:45.967 +08:00 [DBG] Request did not match any endpoints
+2024-10-11 23:39:46.067 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-11 23:39:46.069 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-11 23:39:46.087 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-11 23:39:46.088 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-11 23:39:46.091 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7154/swagger/index.html - 200 null text/html;charset=utf-8 268.2554ms
+2024-10-11 23:39:46.171 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 23:39:46.180 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7154/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 9.0894ms
+2024-10-11 23:39:46.295 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7154/_vs/browserLink - null null
+2024-10-11 23:39:46.361 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7154/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.2135ms
+2024-10-11 23:39:46.519 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7154/swagger/v1/swagger.json - null null
+2024-10-11 23:39:46.521 +08:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-11 23:39:46.522 +08:00 [DBG] Request did not match any endpoints
+2024-10-11 23:39:46.638 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7154/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 119.7471ms
+2024-10-11 23:39:48.657 +08:00 [DBG] Connection id "0HN7A1BMR3BJQ" received FIN.
+2024-10-11 23:39:48.695 +08:00 [DBG] The connection queue processing loop for 0HN7A1BMR3BJQ completed.
+2024-10-11 23:39:48.699 +08:00 [DBG] Connection id "0HN7A1BMR3BJQ" is closed. The last processed stream ID was 7.
+2024-10-11 23:39:48.703 +08:00 [DBG] Connection id "0HN7A1BMR3BJQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 23:39:48.728 +08:00 [DBG] Connection id "0HN7A1BMR3BJQ" stopped.
+2024-10-11 23:39:53.333 +08:00 [DBG] Connection id "0HN7A1BMR3BJR" accepted.
+2024-10-11 23:39:53.335 +08:00 [DBG] Connection id "0HN7A1BMR3BJR" started.
+2024-10-11 23:39:53.342 +08:00 [DBG] Connection 0HN7A1BMR3BJR established using the following protocol: "Tls13"
+2024-10-11 23:39:53.344 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7154/api/People/1 - null null
+2024-10-11 23:39:53.349 +08:00 [DBG] 1 candidate(s) found for the request path '/api/People/1'
+2024-10-11 23:39:53.353 +08:00 [DBG] Endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)' with route pattern 'api/People/{id}' is valid for the request path '/api/People/1'
+2024-10-11 23:39:53.355 +08:00 [DBG] Request matched endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)'
+2024-10-11 23:39:53.361 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-11 23:39:53.364 +08:00 [INF] Executing endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)'
+2024-10-11 23:39:53.409 +08:00 [INF] Route matched with {action = "GetPerson", controller = "People"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPerson(Int32) on controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment).
+2024-10-11 23:39:53.414 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-11 23:39:53.415 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-11 23:39:53.417 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-11 23:39:53.420 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-11 23:39:53.423 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-11 23:39:53.429 +08:00 [DBG] Executing controller factory for controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment)
+2024-10-11 23:39:53.667 +08:00 [DBG] Executed controller factory for controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment)
+2024-10-11 23:39:53.686 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-11 23:39:53.689 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-11 23:39:53.692 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 23:39:53.693 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 23:39:53.695 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-11 23:39:53.719 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-11 23:39:53.723 +08:00 [INF] Returning person data for ID: 1
+2024-10-11 23:39:53.727 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-11 23:39:53.730 +08:00 [DBG] No information found on request to perform content negotiation.
+2024-10-11 23:39:53.731 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-11 23:39:53.732 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-11 23:39:53.733 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-11 23:39:53.734 +08:00 [INF] Executing OkObjectResult, writing value of type 'Person'.
+2024-10-11 23:39:53.747 +08:00 [INF] Executed action TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment) in 316.9358ms
+2024-10-11 23:39:53.748 +08:00 [INF] Executed endpoint 'TakeHomeAssignment.Controller.PeopleController.GetPerson (TakeHomeAssignment)'
+2024-10-11 23:39:53.748 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7154/api/People/1 - 200 null application/json; charset=utf-8 404.3753ms
+2024-10-11 23:39:54.340 +08:00 [DBG] Connection id "0HN7A1BMR3BJR" received FIN.
+2024-10-11 23:39:54.344 +08:00 [DBG] Connection id "0HN7A1BMR3BJR" is closed. The last processed stream ID was 1.
+2024-10-11 23:39:54.344 +08:00 [DBG] The connection queue processing loop for 0HN7A1BMR3BJR completed.
+2024-10-11 23:39:54.346 +08:00 [DBG] Connection id "0HN7A1BMR3BJR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 23:39:54.356 +08:00 [DBG] Connection id "0HN7A1BMR3BJR" stopped.
+2024-10-11 23:40:26.851 +08:00 [DBG] Connection id "0HN7A1BMR3BJS" accepted.
+2024-10-11 23:40:26.860 +08:00 [DBG] Connection id "0HN7A1BMR3BJS" started.
+2024-10-11 23:40:26.868 +08:00 [DBG] Connection 0HN7A1BMR3BJS established using the following protocol: "Tls13"
+2024-10-11 23:40:26.877 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7154/api/People/add - application/json 89
+2024-10-11 23:40:26.883 +08:00 [DBG] 1 candidate(s) found for the request path '/api/People/add'
+2024-10-11 23:40:26.884 +08:00 [DBG] Endpoint 'TakeHomeAssignment.Controller.PeopleController.AddPerson (TakeHomeAssignment)' with route pattern 'api/People/add' is valid for the request path '/api/People/add'
+2024-10-11 23:40:26.885 +08:00 [DBG] Request matched endpoint 'TakeHomeAssignment.Controller.PeopleController.AddPerson (TakeHomeAssignment)'
+2024-10-11 23:40:26.886 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-11 23:40:26.887 +08:00 [INF] Executing endpoint 'TakeHomeAssignment.Controller.PeopleController.AddPerson (TakeHomeAssignment)'
+2024-10-11 23:40:26.893 +08:00 [INF] Route matched with {action = "AddPerson", controller = "People"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddPerson(Person) on controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment).
+2024-10-11 23:40:26.896 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-11 23:40:26.897 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-11 23:40:26.898 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-11 23:40:26.899 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-11 23:40:26.901 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-11 23:40:26.903 +08:00 [DBG] Executing controller factory for controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment)
+2024-10-11 23:40:26.905 +08:00 [DBG] Executed controller factory for controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment)
+2024-10-11 23:40:26.908 +08:00 [DBG] Attempting to bind parameter 'person' of type 'Person' ...
+2024-10-11 23:40:26.912 +08:00 [DBG] Attempting to bind parameter 'person' of type 'Person' using the name '' in request data ...
+2024-10-11 23:40:26.915 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-11 23:40:26.924 +08:00 [DBG] Connection id "0HN7A1BMR3BJS", Request id "0HN7A1BMR3BJS:00000001": started reading request body.
+2024-10-11 23:40:26.926 +08:00 [DBG] Connection id "0HN7A1BMR3BJS", Request id "0HN7A1BMR3BJS:00000001": done reading request body.
+2024-10-11 23:40:26.934 +08:00 [DBG] JSON input formatter succeeded, deserializing to type 'Person'
+2024-10-11 23:40:26.936 +08:00 [DBG] Done attempting to bind parameter 'person' of type 'Person'.
+2024-10-11 23:40:26.937 +08:00 [DBG] Done attempting to bind parameter 'person' of type 'Person'.
+2024-10-11 23:40:26.940 +08:00 [DBG] Attempting to validate the bound parameter 'person' of type 'Person' ...
+2024-10-11 23:40:26.991 +08:00 [DBG] Done attempting to validate the bound parameter 'person' of type 'Person'.
+2024-10-11 23:40:27.035 +08:00 [INF] Person added: {"Id":5,"Name":"string","Email":"string@email.com","Phone":"0123456789","$type":"Person"}
+2024-10-11 23:40:27.044 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-11 23:40:27.047 +08:00 [DBG] No information found on request to perform content negotiation.
+2024-10-11 23:40:27.048 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-11 23:40:27.049 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-11 23:40:27.050 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-11 23:40:27.052 +08:00 [INF] Executing OkObjectResult, writing value of type 'Person'.
+2024-10-11 23:40:27.055 +08:00 [INF] Executed action TakeHomeAssignment.Controller.PeopleController.AddPerson (TakeHomeAssignment) in 151.8207ms
+2024-10-11 23:40:27.058 +08:00 [INF] Executed endpoint 'TakeHomeAssignment.Controller.PeopleController.AddPerson (TakeHomeAssignment)'
+2024-10-11 23:40:27.059 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7154/api/People/add - 200 null application/json; charset=utf-8 182.3902ms
+2024-10-11 23:40:31.741 +08:00 [INF] Request starting HTTP/2 DELETE https://localhost:7154/api/People/5 - null null
+2024-10-11 23:40:31.743 +08:00 [DBG] 1 candidate(s) found for the request path '/api/People/5'
+2024-10-11 23:40:31.746 +08:00 [DBG] Endpoint 'TakeHomeAssignment.Controller.PeopleController.DeletePerson (TakeHomeAssignment)' with route pattern 'api/People/{id}' is valid for the request path '/api/People/5'
+2024-10-11 23:40:31.747 +08:00 [DBG] Request matched endpoint 'TakeHomeAssignment.Controller.PeopleController.DeletePerson (TakeHomeAssignment)'
+2024-10-11 23:40:31.749 +08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-11 23:40:31.749 +08:00 [INF] Executing endpoint 'TakeHomeAssignment.Controller.PeopleController.DeletePerson (TakeHomeAssignment)'
+2024-10-11 23:40:31.752 +08:00 [INF] Route matched with {action = "DeletePerson", controller = "People"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePerson(Int32) on controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment).
+2024-10-11 23:40:31.753 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-11 23:40:31.754 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-11 23:40:31.755 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-11 23:40:31.757 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-11 23:40:31.760 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-11 23:40:31.762 +08:00 [DBG] Executing controller factory for controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment)
+2024-10-11 23:40:31.766 +08:00 [DBG] Executed controller factory for controller TakeHomeAssignment.Controller.PeopleController (TakeHomeAssignment)
+2024-10-11 23:40:31.768 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-11 23:40:31.769 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-11 23:40:31.770 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 23:40:31.770 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 23:40:31.771 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-11 23:40:31.772 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-11 23:40:31.774 +08:00 [INF] Person deleted with ID: 5
+2024-10-11 23:40:31.780 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-10-11 23:40:31.781 +08:00 [INF] Executed action TakeHomeAssignment.Controller.PeopleController.DeletePerson (TakeHomeAssignment) in 19.9076ms
+2024-10-11 23:40:31.782 +08:00 [INF] Executed endpoint 'TakeHomeAssignment.Controller.PeopleController.DeletePerson (TakeHomeAssignment)'
+2024-10-11 23:40:31.783 +08:00 [INF] Request finished HTTP/2 DELETE https://localhost:7154/api/People/5 - 200 0 null 42.5617ms
+2024-10-11 23:40:34.378 +08:00 [DBG] Connection id "0HN7A1BMR3BJS" received FIN.
+2024-10-11 23:40:34.380 +08:00 [DBG] Connection id "0HN7A1BMR3BJS" is closed. The last processed stream ID was 3.
+2024-10-11 23:40:34.380 +08:00 [DBG] The connection queue processing loop for 0HN7A1BMR3BJS completed.
+2024-10-11 23:40:34.381 +08:00 [DBG] Connection id "0HN7A1BMR3BJS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 23:40:34.397 +08:00 [DBG] Connection id "0HN7A1BMR3BJS" stopped.

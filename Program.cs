@@ -4,6 +4,12 @@ using TakeHomeAssignment.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug() // Set minimum logging level
+    .WriteTo.Console() // Log to console
+    .WriteTo.File("logs\\myapp.txt", rollingInterval: RollingInterval.Day) // Log to file
+    .CreateLogger();
+
 // Add services to the container.
 builder.Host.UseSerilog(); // Use Serilog for logging
 

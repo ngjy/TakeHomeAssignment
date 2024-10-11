@@ -22,8 +22,11 @@ namespace TakeHomeAssignment.Controller
             Person person = peopleService.GetPersonById(id);
             if (person == null)
             {
+                logger.LogWarning("Person with ID {Id} not found", id);
                 return NotFound();
             }
+
+            logger.LogInformation("Returning person data for ID: {Id}", id);
             return Ok(person);
         }
 
@@ -32,6 +35,7 @@ namespace TakeHomeAssignment.Controller
         {
             if (!ModelState.IsValid)
             {
+                logger.LogWarning("Invalid data for person. {@Person}", person);
                 return BadRequest(ModelState);
             }
             peopleService.AddPerson(person);
@@ -45,6 +49,7 @@ namespace TakeHomeAssignment.Controller
             var person = peopleService.GetPersonById(id);
             if (person == null)
             {
+                logger.LogWarning("Invalid, Person with ID {Id} not deleted", id);
                 return NotFound();
             }
             peopleService.DeletePerson(id);
