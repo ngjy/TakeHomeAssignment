@@ -16,7 +16,6 @@ namespace TakeHomeAssignment.Controller
             this.logger = logger;
         }
 
-        // Get a person by ID
         [HttpGet("{id}")]
         public IActionResult GetPerson(int id)
         {
@@ -28,7 +27,6 @@ namespace TakeHomeAssignment.Controller
             return Ok(person);
         }
 
-        // Add a new person
         [HttpPost("add")]
         public IActionResult AddPerson([FromBody] Person person)
         {
@@ -41,7 +39,6 @@ namespace TakeHomeAssignment.Controller
             return Ok(person);
         }
 
-        // Delete a person by ID
         [HttpDelete("{id}")]
         public IActionResult DeletePerson(int id)
         {
