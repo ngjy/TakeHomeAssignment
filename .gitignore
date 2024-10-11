@@ -4,7 +4,7 @@
 
 # Ignore Visual Studio folder
 .vs/
-TakeHomeAssignment/.vs  
+TakeHomeAssignment/.vs
 
 # Ignore build results
 [Dd]ebug/
@@ -20,7 +20,9 @@ x86/
 
 # Ignore user-specific files
 *.user
-*.suo
+*.suo/
 
 # Ignore Rider IDE folder
 .idea/
+*.suo
+*.testlog
