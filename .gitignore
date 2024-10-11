@@ -24,5 +24,3 @@ x86/
 
 # Ignore Rider IDE folder
 .idea/
-*.suo
-*.testlog

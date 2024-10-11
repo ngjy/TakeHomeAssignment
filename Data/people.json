@@ -10,11 +10,5 @@
     "Name": "Jane Doe",
     "Email": "jane@example.com",
     "Phone": "0987654321"
-  },
-  {
-    "Id": 3,
-    "Name": "Name Test",
-    "Email": "mark@example.com",
-    "Phone": "9876543210"
   }
 ]
