@@ -2,6 +2,24 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
-/bin
-/obj
+# Ignore Visual Studio folder
+.vs/
+
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore Rider IDE folder
+.idea/
