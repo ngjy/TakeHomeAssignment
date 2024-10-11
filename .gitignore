@@ -4,6 +4,7 @@
 
 # Ignore Visual Studio folder
 .vs/
+TakeHomeAssignment/.vs  
 
 # Ignore build results
 [Dd]ebug/
