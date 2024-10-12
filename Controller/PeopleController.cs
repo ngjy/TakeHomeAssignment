@@ -38,6 +38,7 @@ namespace TakeHomeAssignment.Controller
                 logger.LogWarning("Invalid data for person. {@Person}", person);
                 return BadRequest(ModelState);
             }
+
             peopleService.AddPerson(person);
             logger.LogInformation("Person added: {@Person}", person);
             return Ok(person);
@@ -46,12 +47,13 @@ namespace TakeHomeAssignment.Controller
         [HttpDelete("{id}")]
         public IActionResult DeletePerson(int id)
         {
-            var person = peopleService.GetPersonById(id);
+            Person person = peopleService.GetPersonById(id);
             if (person == null)
             {
                 logger.LogWarning("Invalid, Person with ID {Id} not deleted", id);
                 return NotFound();
             }
+
             peopleService.DeletePerson(id);
             logger.LogInformation("Person deleted with ID: {Id}", id);
             return Ok();

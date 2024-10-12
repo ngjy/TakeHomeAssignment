@@ -17,9 +17,7 @@ builder.Host.UseSerilog(); // Use Serilog for logging
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<PeopleService>();
-builder.Services.AddControllers()
-    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<PeopleValidator>());
+builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<PeopleValidator>());
 builder.Services.AddScoped<IPeopleService, PeopleService>();
 
 var app = builder.Build();

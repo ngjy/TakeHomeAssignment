@@ -92,7 +92,7 @@ namespace TakeHomeAssignment.Test
             Person person = new Person { Id = personId, Name = "John Doe", Email = "john@example.com", Phone = "1234567890" };
             peopleServiceMock.Setup(service => service.GetPersonById(personId)).Returns(person);
 
-            var result = peopelController.DeletePerson(2);
+            IActionResult result = peopelController.DeletePerson(2);
 
             Assert.IsInstanceOfType(result, typeof(NotFoundResult));
         }

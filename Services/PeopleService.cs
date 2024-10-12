@@ -31,7 +31,7 @@ public class PeopleService : IPeopleService
 
     public void DeletePerson(int id)
     {
-        var person = GetPersonById(id);
+        Person person = GetPersonById(id);
         if (person != null)
         {
             listPeople.Remove(person);
